@@ -29,19 +29,17 @@ more coming...?
 # how can we make the language safe by default and unsafe when performance requires it?
 
 ... and why should this be a goal?
-I think one of the reasons that 'c++ is hard' is a pervasive statement, is that the default behaviour in many cases is based on what costs the least in terms of run-time overhead. The **you don't pay for what you don't use** logic is applied here. However, for programmers that do not read the standard in the entirety, knowing what you *are* actually using can be hard.
+I think one of the reasons that 'c++ is hard' is a pervasive statement, is that the default behaviour in many cases is based on what costs the least in terms of run-time overhead. The **you don't pay for what you don't use** logic is applied here. However, for programmers that do not read the standard in the entirety, knowing what you **are** actually using can be hard.
 
-I think we could start by adding support in the standard to sub-set on certain features.
-
-Ofcourse, you could argue why this would need to be in the standard at all. I think the main reason is, 
-so all major vendors will implement this in the same way. It would be bad if 
-
-
-
+What if we could make the language safe-by-default?
 My own two pet peeves are:
 
 - a compiler switch to disable the use of **new** and **delete** 
-- a compiler switch always initialize *all* variables
+- a compiler switch always initialize **all** variables
 
 
 
+
+what about adding support in the standard to sub-set on certain features.
+Ofcourse, you could argue why this would need to be in the standard at all. I think the main reason is, 
+so all major vendors will implement this in the same way. It would be bad if 
