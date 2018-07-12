@@ -21,6 +21,8 @@ more coming...?
 
 # should we leave legacy code bases behind at some point?
 
+I would like to write down some solid arguments here (pro or con), other then 'we cant'
+
 # how can we make the language safe(r) by default and more relaxed when performance requires it?
 
 ... and why should this be a goal?
