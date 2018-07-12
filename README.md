@@ -29,9 +29,10 @@ I think one of the reasons that 'c++ is hard' is a pervasive statement, is that 
 What if we could make the language safe(r)-by-default?
 Some of my own pet peeves are:
 
-1) a compiler switch to disable the use of **new** and **delete** 
-2) a compiler switch always initialize **all** variables and emit a warning when its not explicitly done.
-3) a compiler switch to disable implicit conversion between unrelated types (bool <> integer <> double <> class)
+1) a feature toggle to disable the use of **new** and **delete** 
+2) a feature toggle to always initialize **all** variables and emit a warning when its not explicitly done.
+3) a feature toggle to disable implicit conversion between unrelated types (bool <> integer <> double <> class)
+4) a feature toggle for switching for the keyword typedef
 
 what about adding support in the standard to sub-set on certain features.
 Ofcourse, you could argue why this would need to be in the standard at all. I think the main reason is, 
@@ -39,7 +40,6 @@ so all major vendors will implement this in the same way. It would be bad to fra
 
 I am worried that 2) might promote bad practice, like not initilizing variables ever, because the 'compiler will do it'.
 However, if it would emit a warning, that might at least discourage  new coders from doing this.
-
 
 
 
